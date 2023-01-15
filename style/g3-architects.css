@@ -278,6 +278,24 @@ ul li{
 .figma{
     margin-left: 95px;
 }
+/* Best Architecture Design */
+.best-architects{
+  background-image: url(../images/Best\ Architects.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+.architects-image{
+  
+}
+.best-title{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 36vh;
+}
 /* Footer Style */
 .footer-descriptions{
   text-align: center;
