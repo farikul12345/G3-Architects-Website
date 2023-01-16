@@ -76,12 +76,12 @@ ul li{
     border-radius: 5px;
     margin-bottom: 20px;
 }
-#banner-image-only {
-  width: 1300px;
-  height: 700px;
-  position: relative;
-  left: 125px;
-  bottom: 6px;
+.banner-images{
+  margin: 0px auto;
+}
+img {
+  width: 80%;
+  margin: 5px 180px;
 }
 /* Our Feature Style */
 .our-feature-section{
