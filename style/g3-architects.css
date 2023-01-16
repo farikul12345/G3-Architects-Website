@@ -365,7 +365,127 @@ input{
 }
 /* ---------Media Queries----- */
 @media only screen and (max-width:688px) {
-   .logo-title{
-    font-size: 20px;
+   .nav-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 145px;
+    margin-right: 100px;
+    align-items: center;
+    padding: 25px 50px;
+    flex-direction: column;
+    width: 100%;
    } 
+   .banner-container {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 210px;
+    margin-right: 529px;
+    width: 100%;
+}
+.banner-title {
+  font-size: 55px;
+  font-weight: 800;
+  color: #131313;
+}
+.banner-image {
+  height: 700px;
+  margin: 20px auto;
+}
+.our-feature-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 105px;
+  padding: 20px 150px;
+}
+.feature-images {
+  display: grid;
+  grid-template-columns: 342px 342px;
+  margin: 30px auto;
+  row-gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+}
+.our-images{
+  width: 533px;
+}
+.feature-contents {
+  text-align: center;
+}
+.enjoyable-section {
+  height: 100%;
+  margin: 20px auto;
+  align-items: center;
+  padding: 20px 50px;
+  width: 100%;
+  
+}
+.enjoy-love-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 180px;
+  padding: 15px 50px;
+ width: 100%;
+}
+.bar{
+  display: none;
+}
+.loving-features {
+  padding: 20px 50px;
+}
+.enjoy-image {
+  width: 550px;
+  height: 500px;
+  margin: 25px;
+}
+.primary-color-pro {
+  background-color: #FF900E;
+  padding: 21px 24px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-left: 475px;
+  margin-top: -450px;
+}
+.some-effect-content{
+  margin-left: 200px;
+  padding: 20px 25px;
+}
+.effect-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 15px;
+    margin-left: 120px;
+    text-align: center;
+    margin-right: -280px;
+
+}
+.effect-description {
+  font-weight: 400;
+  color: #727272;
+  padding-bottom: 70px;
+  margin-left: 120px;
+  margin-right: -400px;
+}
+.some-effects-design {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.award {
+  margin-left: 140px;
+  margin-bottom: 40px;
+  padding: 20px 25px;
+  border: 1px solid #FF900E;
+  background-color: aliceblue;
+  border-radius: 7px;
+}
 }
