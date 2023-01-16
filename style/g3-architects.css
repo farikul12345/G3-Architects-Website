@@ -82,7 +82,7 @@ ul li{
 .banner-image-only {
   transform: translate(225px, -5px);
   width: 1200px;
-  height: 650px;
+  height: 670px;
 }
 /* Our Feature Style */
 .our-feature-section{
@@ -377,6 +377,14 @@ input{
   margin-bottom: 18px;
   border-radius: 5px;
 }
+.primary-color-footer{
+  background-color: #FF900E;
+  padding: 21px 24px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+}
 .footer-descriptions{
   text-align: center;
   border: 2px solid lightblue;
@@ -438,11 +446,12 @@ input{
   font-size: 20px;
   font-weight: 600;
   border-radius: 5px;
-  margin-left: 105px;
+  margin-left: 135px;
 }
-.banner-image {
-  height: 700px;
-  margin: 20px auto;
+.banner-image-only {
+  transform: translate(215px, -5px);
+  width: 500px;
+  height: 300px;
 }
 .our-feature-section {
   display: flex;
@@ -456,7 +465,7 @@ input{
 .feature-images {
   display: grid;
   grid-template-columns: 342px 342px;
-  margin: 30px auto;
+  margin: 30px;
   row-gap: 20px;
   grid-template-columns: repeat(1, 1fr);
 }
@@ -506,10 +515,10 @@ input{
   margin-top: -45px;
 }
 .enjoy-image {
-    width: 550px;
-    height: 500px;
-    margin-top: 25px;
-
+  width: 500px;
+  height: 500px;
+  margin-top: 25px;
+  transform: translateX(-100px);
 }
 .primary-color-pro {
   background-color: #FF900E;
@@ -518,8 +527,8 @@ input{
   font-size: 20px;
   font-weight: 600;
   border-radius: 5px;
-  margin-left: 368px;
-  margin-top: -445px;
+  margin-left: 358px;
+  margin-top: -440px;
   transform: translateY(-65px);
 }
 .some-effect-content{
@@ -650,7 +659,7 @@ input {
   margin-bottom: 15px;
   border-radius: 5px;
 }
-.primary-color-footer{
+.primary-color-footer {
   padding: 5px 10px;
   background-color: #FF900E;
   border: 1px solid #8d4a4a;
@@ -666,7 +675,7 @@ input {
   padding: 5px 10px;
   margin-left: 50px;
   margin-right: 50px;
-  transform: translate(269px, 34px);
+  transform: translate(275px, 34px);
 }
 .footer-des {
   font-size: 15px;
