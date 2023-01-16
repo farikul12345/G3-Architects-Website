@@ -5,7 +5,6 @@
 }
 header{
     background: rgba(255, 144, 14, 0.1);
-    height: 100vh;
     
 }
 .nav-container{
@@ -22,9 +21,6 @@ header{
     font-size: 40px;
     font-weight: 600;
     color: #131313;
-    width: 150px;
-    left: 228px;
-    top: 50px;
 }
 .manu-item{
     display: flex;
@@ -81,9 +77,6 @@ ul li{
     row-gap: 10px;
 
 }
-.our-images{
-  width: 342px;
-}
 .feature-contents{
    margin-left: 65px;
 }
@@ -112,16 +105,18 @@ ul li{
 /* Enjoy and Love Section Style */
 .enjoyable-section{
   background-color: rgb(240, 245, 245);
-  margin: 130px 130px;
+  margin: 100px auto;
+  width: 1400px;
+  height: 1000px;
 }
 .bar{
   width: 5px;
-  height: 105px;
-  padding: 20px 3px;
+  height: 90px;
+  padding: 9px 3px;
   background: #FF900E;
-  margin-left: 33px;
-  margin-bottom: -20px;
-  position: relative;
+  margin-left: 30px;
+  margin-top: 18px;
+  margin-right: 10px;
 }
 .enjoy-love-section{
     display: flex;
