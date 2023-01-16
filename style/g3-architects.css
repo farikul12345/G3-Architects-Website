@@ -41,34 +41,44 @@ ul li{
   border-radius: 5px;
 }
 /* Banner contents style */
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+  align-items: center;
+  padding: 25px 50px;
+}
 .banner-container{
-    text-align: center;
-    margin-top: 100px;
-    margin-left: 529px;
-    margin-right: 529px;
+  text-align: center;
+  margin-top: 45px;
+  margin-left: 480px;
+  margin-right: 480px;
 }
 .banner-title{
-    font-size: 64px;
+    font-size: 58px;
     font-weight: 700;
     color: #131313;
 }
 .banner-desciption{
     font-weight: 400px;
     color: #727272;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.primary-color{
+.primary-color {
     background-color: #FF900E;
     padding: 21px 24px;
     color: white;
     font-size: 20px;
     font-weight: 600;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 .banner-image{
     height: 700px;
-    margin: 50px 130px;
+    transform: translate(125px, -5px);
 }
 /* Our Feature Style */
 .our-feature-section{
