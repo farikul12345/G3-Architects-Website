@@ -76,13 +76,12 @@ ul li{
     border-radius: 5px;
     margin-bottom: 20px;
 }
-.banner-images{
- 
-}
-.banner-image-only {
-  transform: translate(225px, -5px);
-  width: 1200px;
-  height: 670px;
+#banner-image-only {
+  width: 1300px;
+  height: 700px;
+  position: relative;
+  left: 125px;
+  bottom: 6px;
 }
 /* Our Feature Style */
 .our-feature-section{
