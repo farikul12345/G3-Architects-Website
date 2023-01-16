@@ -82,9 +82,10 @@ ul li{
 }
 /* Our Feature Style */
 .our-feature-section{
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 150px;
 }
 .feature-images{
     display: grid;
