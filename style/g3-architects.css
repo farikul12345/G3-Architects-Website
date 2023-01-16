@@ -5,8 +5,7 @@
 }
 header{
     background: rgba(255, 144, 14, 0.1);
-    width: 1900px;
-    height: 1300px;
+    height: 100vh;
     
 }
 .nav-container{
@@ -43,7 +42,6 @@ ul li{
     margin-top: 100px;
     margin-left: 529px;
     margin-right: 529px;
-    width: 862px;
 }
 .banner-title{
     font-size: 64px;
@@ -65,7 +63,6 @@ ul li{
     border-radius: 5px;
 }
 .banner-image{
-    width: 1440px;
     height: 700px;
     margin: 50px 130px;
 }
@@ -89,7 +86,6 @@ ul li{
 }
 .feature-contents{
    margin-left: 65px;
-   width: 530px;
 }
 .q-list{
   font-size: 45px;
@@ -117,8 +113,6 @@ ul li{
 .enjoyable-section{
   background-color: rgb(240, 245, 245);
   margin: 130px 130px;
-  width: 1440px;
-  height: 1050px;
 }
 .bar{
   width: 5px;
@@ -328,7 +322,6 @@ ul li{
   justify-content: space-around;
   align-items: center;
   margin-top: 40px;
-  width: 1900px;
 }
 .footer-title{
  font-size: 45px;
