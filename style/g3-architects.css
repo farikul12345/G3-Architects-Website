@@ -76,10 +76,13 @@ ul li{
     border-radius: 5px;
     margin-bottom: 20px;
 }
-.banner-image{
-   transform: translate(130px, -5px);
-   width: 1100px;
-   height: 650px;
+.banner-images{
+ 
+}
+.banner-image {
+  transform: translate(225px, -5px);
+  width: 1200px;
+  height: 650px;
 }
 /* Our Feature Style */
 .our-feature-section{
