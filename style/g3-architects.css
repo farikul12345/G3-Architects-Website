@@ -76,12 +76,11 @@ ul li{
     border-radius: 5px;
     margin-bottom: 20px;
 }
-.banner-images{
-  margin: 0px auto;
+.banner-images {
+  margin: 5px 123px;
 }
 img {
-  width: 80%;
-  margin: 5px 180px;
+  
 }
 /* Our Feature Style */
 .our-feature-section{
@@ -90,13 +89,14 @@ img {
   align-items: center;
   margin: 20px 150px;
 }
-.feature-images{
-    display: grid;
-    grid-template-columns: 342px 342px;
-    margin-top: 40px;
-    margin-left: 55px;
-    column-gap: 30px;
-    row-gap: 30px;
+.feature-images {
+  display: grid;
+  grid-template-columns: 342px 342px;
+  margin-top: 40px;
+  margin-right: 30px;
+  margin-left: 50px;
+  row-gap: 30px;
+  column-gap: 30px;
 }
 .feature-contents{
    margin-left: 65px;
@@ -132,13 +132,15 @@ img {
   border-radius: 5px;
 }
 /* Enjoy and Love Section Style */
-.enjoyable-section{
-  background-color: rgb(240, 245, 245);
+.enjoyable-section {
+  background-color: #fffafa;
   margin: 100px auto;
-  width: 1400px;
-  height: 1000px;
+  width: 1150px;
+  height: 990px;
+  border: 1px solid white;
+  padding: 20px 70px;
 }
-.bar{
+.bar {
   width: 5px;
   height: 90px;
   padding: 9px 3px;
@@ -147,22 +149,21 @@ img {
   margin-top: 18px;
   margin-right: 10px;
 }
-.enjoy-love-section{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 40px;
-    
+.enjoy-love-section {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px;
 }
-.loving-features{
-   padding-top: 20px;
-   padding-bottom: 20px;
-   
+.loving-features {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 55px;
 }
-.love-title{
-   font-size: 45px;
-   font-weight: 700;
-   color: #131313;
-   margin-bottom: 25px;
+.love-title {
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+  margin-bottom: 25px;
 }
 .love-des{
   font-weight: 400;
@@ -197,19 +198,20 @@ img {
     font-weight: 400;
     color: #727272;
 }
-.enjoy-image{
-  width: 705px;
-  height: 980px;
+.enjoy-image {
+  width: 500px;
+  height: 907px;
 }
-.primary-color-pro{
-    background-color: #FF900E;
-    padding: 21px 24px;
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 5px;
-    margin-left: 700px;
-    margin-top: -450px;
+.primary-color-pro {
+  background-color: #FF900E;
+  padding: 21px 24px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-left: 700px;
+  margin-top: -456px;
+  transform: translate(-100px, -76px);
 }
 /* Some Effect Design */
 .some-effects{
@@ -324,12 +326,12 @@ img {
     margin-left: 95px;
 }
 /* Best Architecture Design */
-.best-architects{
+.best-architects {
   background-image: url(../images/Best\ Architects.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 100vh;
 }
 .best-title{
     color: red;
@@ -339,9 +341,9 @@ img {
     padding-top: 36vh;
 }
 /* Footer Section Style */
-.footer-section{
+.footer-section {
   background-color: #151414;
-  height: 65vh;
+  height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
