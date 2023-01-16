@@ -5,25 +5,34 @@
 }
 header{
     background: rgba(255, 144, 14, 0.1);
+    width: 1900px;
+    height: 1300px;
     
 }
 .nav-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 5px;
-    margin-left: 230px;
-    margin-right: 230px;
+    margin-left: 100px;
+    margin-right: 100px;
     align-items: center;
-    padding-top: 25px;
+   padding: 25px 50px;
+
 }
 .logo-title{
-    font-size: 45px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
     color: #131313;
+    width: 150px;
+    left: 228px;
+    top: 50px;
 }
 .manu-item{
     display: flex;
     list-style: none;
+}
+ul{
+  align-items: center;
 }
 ul li{
     margin-left: 30px;
@@ -34,6 +43,7 @@ ul li{
     margin-top: 100px;
     margin-left: 529px;
     margin-right: 529px;
+    width: 862px;
 }
 .banner-title{
     font-size: 64px;
@@ -70,10 +80,16 @@ ul li{
     grid-template-columns: 342px 342px;
     margin-top: 80px;
     margin-left: 300px;
+    column-gap: 10px;
+    row-gap: 10px;
 
+}
+.our-images{
+  width: 342px;
 }
 .feature-contents{
    margin-left: 65px;
+   width: 530px;
 }
 .q-list{
   font-size: 45px;
@@ -101,18 +117,28 @@ ul li{
 .enjoyable-section{
   background-color: rgb(240, 245, 245);
   margin: 130px 130px;
+  width: 1440px;
+  height: 1050px;
 }
 .bar{
-
+  width: 5px;
+  height: 105px;
+  padding: 20px 3px;
+  background: #FF900E;
+  margin-left: 33px;
+  margin-bottom: -20px;
+  position: relative;
 }
 .enjoy-love-section{
     display: flex;
     justify-content: space-around;
     margin-left: 40px;
+    
 }
 .loving-features{
    padding-top: 20px;
    padding-bottom: 20px;
+   
 }
 .love-title{
    font-size: 45px;
@@ -152,6 +178,10 @@ ul li{
 .feateur-des{
     font-weight: 400;
     color: #727272;
+}
+.enjoy-image{
+  width: 705px;
+  height: 980px;
 }
 .primary-color-pro{
     background-color: #FF900E;
@@ -263,9 +293,6 @@ ul li{
 .spotify{
   margin-left: 95px;
 }
-.sponsor-image{
-
-}
 .amazon{
  margin-left: 95px;
 }
@@ -286,9 +313,6 @@ ul li{
   background-position: center;
   height: 80vh;
 }
-.architects-image{
-  
-}
 .best-title{
     color: red;
     text-align: center;
@@ -296,16 +320,54 @@ ul li{
     font-weight: 600;
     padding-top: 36vh;
 }
-/* Footer Style */
+/* Footer Section Style */
+.footer-section{
+  background-color: #151414;
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+  width: 1900px;
+}
+.footer-title{
+ font-size: 45px;
+ font-weight: 700;
+ color: #F8F8F8;
+ margin-bottom: 20px;
+    
+}
+.footer-description{
+ color: #fff;
+ margin-bottom: 24px;
+}
+.subscribe-title{
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+}
+input{
+  height: 25px;
+  width: 100%;
+  background-color: #151414;
+  border: 2px solid white;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 18px;
+  padding-right: 45px;
+  margin-top: 31px;
+  margin-bottom: 18px;
+  border-radius: 5px;
+}
 .footer-descriptions{
   text-align: center;
   border: 2px solid lightblue;
-  background-color: #FFF4E7;
-  margin-top: 100px;
-  margin-bottom: 200px;
-  padding: 25px 100px;
-  margin-left: 100px;
-  margin-right: 100px;
+  background-color: #f1cb9b;
+  margin-top: -70px;
+  margin-bottom: 100px;
+  padding: 30px 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 
 }
 .footer-des{
